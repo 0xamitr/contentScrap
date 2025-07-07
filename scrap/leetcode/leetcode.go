@@ -64,7 +64,7 @@ func GetContests() ([]map[string]interface{}, error) {
 				"title":    contest.Title,
 				"start":    start.Format("2006-01-02T15:04:05-07:00"), // ISO 8601 with IST offset
 				"duration": contest.Duration / 60,                    // minute
-				"type": "Leetcode"
+				"type": "Leetcode",
 			})
 		}
 	}

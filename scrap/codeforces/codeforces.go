@@ -60,7 +60,6 @@ func GetContests() ([]map[string]interface{}, error) {
 				"start":    start.Format("2006-01-02T15:04:05-07:00"), // ISO8601 with offset
 				"duration": contest.DurationSeconds / 60,
 				"type": "Codeforces",
-
 			})
 		}
 	}
