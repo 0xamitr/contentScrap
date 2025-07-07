@@ -26,5 +26,5 @@ func main() {
 		}
 		c.JSON(200, contests)
 	})
-	r.Run("0.0.0.0:8080")
+	r.Run("0.0.0.0:8082")
 }
