@@ -17,7 +17,7 @@ The server will start at `http://localhost:8080`.
 ### Fetch Contests
 
 ```bash
-curl http://localhost:8080/contests
+curl http://localhost:8080/
 ```
 
 ## Example Response
@@ -27,13 +27,13 @@ curl http://localhost:8080/contests
   {
     "title": "LeetCode Weekly Contest 412",
     "titleSlug": "weekly-contest-412",
-    "start": 1720348800,
+    "start": Date object,
     "duration": 5400
   },
   {
     "title": "Codeforces Round #939",
     "titleSlug": "codeforces-round-939",
-    "start": 1720363200,
+    "start": Date object,
     "duration": 7200
   }
 ]
